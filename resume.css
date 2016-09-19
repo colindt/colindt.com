@@ -20,8 +20,7 @@ body {
     margin: auto;
     margin-bottom: 1in;
     position: relative;
-    top: 0.5in;
-    border: 1px dotted #fafafa;
+    top: 0.75in;
     background-color: white;
 }
 
@@ -33,6 +32,7 @@ h1, h2 {
 }
 
 h1 {
+    line-height: 1.1;
     font-size: 24pt;
 }
 
