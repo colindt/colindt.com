@@ -48,6 +48,11 @@ ul {
     margin: 0;
 }
 
+a:not(:hover) {
+    text-decoration: none;
+    color: black;
+}
+
 .right {
     float: right;
 }
