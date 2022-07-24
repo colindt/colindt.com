@@ -9,4 +9,5 @@ fi
 
 echo $INFILE '->' $OUTFILE
 
-./wkhtmltopdf --print-media-type --page-size Letter -B 0 -L 0 -R 0 -T 0 $INFILE - | pdftk - cat 1 output $OUTFILE
+#./wkhtmltopdf --print-media-type --page-size Letter -B 0 -L 0 -R 0 -T 0 $INFILE - | pdftk - cat 1 output $OUTFILE
+weasyprint "$INFILE" "$OUTFILE"

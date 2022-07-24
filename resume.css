@@ -25,6 +25,11 @@ body {
     background-color: white;
 }
 
+#contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1, h2 {
     margin: 0;
     padding: 0;
@@ -135,4 +140,9 @@ a:not(:hover) {
         box-shadow: none;
         margin: 0;
     }
+}
+
+@page {
+    size: letter;
+    margin: 0;
 }
